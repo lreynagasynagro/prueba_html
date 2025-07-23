@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encuesta de Satisfacción 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .boton-encuesta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 25px;
+      background-color: #1a237e;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton-encuesta:hover {
+      background-color: #3949ab;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Encuesta de Satisfacción 2025.png" alt="Encuesta de Satisfacción 2025">
+    <br>
+    <a class="boton-encuesta" href="https://docs.google.com/forms/d/11MLVd19j04q-0gCMpWnC2xyeHEar_thBc1XdGB9T4sE/viewform" target="_blank">
+      Ir a la Encuesta
+    </a>
+  </div>
+</body>
+</html>
