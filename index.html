@@ -42,9 +42,13 @@
 
     .boton {
       position: absolute;
-      bottom: 5%;              /* Distancia desde abajo */
-      left: 50%;               /* Centrado horizontal */
-      transform: translateX(-50%);
+
+      /* POSICIÓN DEL BOTÓN */
+      left: 50%;
+      top: 92%;
+
+      transform: translate(-50%, -50%);
+
       padding: 15px 35px;
       background-color: #1a237e;
       color: white;
@@ -62,7 +66,7 @@
     .boton:hover {
       background-color: #3949ab;
       box-shadow: 0 6px 20px rgba(0,0,0,0.7);
-      transform: translateX(-50%) scale(1.05);
+      transform: translate(-50%, -50%) scale(1.05);
     }
   </style>
 </head>
@@ -71,11 +75,17 @@
 
   <div class="contenedor">
     <div class="imagen-wrapper">
-      <img src="Placa Actualización SYNAGRO 7-104 - SYNAGRO 10.png" alt="Flyer Webinar">
 
-      <a class="boton"
-         href="https://drive.google.com/drive/u/0/folders/1EvdQVZfpUfKHLTTSg4TDNhJPbL8n7SJE"
-         target="_blank">
+      <img
+        src="Placa Actualización SYNAGRO 7-104 - SYNAGRO 10.png"
+        alt="Flyer Webinar"
+      >
+
+      <a
+        class="boton"
+        href="https://drive.google.com/drive/u/0/folders/1EvdQVZfpUfKHLTTSg4TDNhJPbL8n7SJE"
+        target="_blank"
+      >
         Conocer más
       </a>
 
